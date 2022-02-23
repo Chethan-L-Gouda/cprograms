@@ -15,3 +15,4 @@ This are the simple codes i wrote.
     files.txt
     hello.c
     linear_search.c
+    binary_search.c
