@@ -1,7 +1,7 @@
 # cprograms
 This are the simple codes i wrote.
 
-# The file files in this project: 
+# The files in this project: 
 
     IntArr.c
     README.md
