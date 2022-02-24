@@ -14,5 +14,5 @@ This are the simple codes i wrote.
     fibb_ser.c
     files.txt
     hello.c
-    linear_search.c
+    linear_search_rnt.c
     binary_search.c
