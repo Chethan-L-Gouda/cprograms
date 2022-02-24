@@ -14,5 +14,5 @@ void main()
         charge=charge+200*0.8+100*0.9+((units-300)*1);
     if(charge>400)
         charge=charge+charge*0.15;
-    printf("Name:%s\n units:%f\n charge:%f",units,charge);
+    printf("Name:%s\nunits:%f\ncharge:%f",name,units,charge);
 }
