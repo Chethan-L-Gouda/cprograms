@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
+#include<time.h>
 
 int main(){
     int arr[100],nElem,searchKey;
@@ -8,12 +9,13 @@ int main(){
     printf("Enter the array elements : ");
     for(int i = 0;i<nElem;i++)
         scanf("%d",&arr[i]);
-    printf("Enter the element have have tonsearch for :");
+    printf("Enter the element have have to search for :");
     scanf("%d",&searchKey);
+    clock_t start = clock();
     bool eleFound = false;
     int elePos,lB =0,uB=nElem-1;
     int curs;
-    while(lB<uB){
+    while(lB<=uB){
         curs = (lB+uB)/2;
         if(arr[curs]==searchKey)
             {
@@ -27,10 +29,13 @@ int main(){
             else if(arr[curs]<searchKey)
                 lB = curs+1;
     }
+    clock_t end = clock();
     if(eleFound)
         printf("The element %d was found at Position : %d\n",searchKey,elePos+1);
     else
         printf("The element %d was not foumd in the array.\n",searchKey);
+    double tt = (double)(end-start)/CLOCKS_PER_SEC;
+    printf("The search completed in %lf",tt);
     
     return 0;
 }
