@@ -3,8 +3,10 @@ This are the simple codes i wrote.
 
 # The file files in this project: 
 
-    IntArr.c
     README.md
+    display_grades.c
+    palindrome.c
+    largest_of3num.c
     SimpleCal.c
     add.c
     bubble_sort.c
