@@ -18,3 +18,4 @@ This are the simple codes i wrote.
     hello.c
     linear_search_rnt.c
     binary_search.c
+    sin_ser.c
