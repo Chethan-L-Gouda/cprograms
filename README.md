@@ -1,7 +1,7 @@
 # cprograms
-This are the simple codes i wrote.
+These are some simple c program.
 
-# The file files in this project: 
+# The files in this project: 
 
     README.md
     display_grades.c - display grade of a student by reading marks. [marks >> grade]
