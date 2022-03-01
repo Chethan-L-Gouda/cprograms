@@ -20,3 +20,4 @@ These are some simple c program.
     sin_ser.c - finds the value of sinx for given value of radian x. [x,n >> sinx]
     avg_ofn.c - finds the sum and average of the elements in a given array. [array,n >> sum,avg]
     quad_eqn.c - find the roots of a quadratic equation. [co-efficients >> roots]
+    string_fun.c - contails some functions that can perform operations on string. [length(),comp(),concat()]
