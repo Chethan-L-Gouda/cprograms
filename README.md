@@ -1,5 +1,5 @@
 # cprograms
-This are the simple codes i wrote.
+These are some simple c program.
 
 # The files in this project: 
 
