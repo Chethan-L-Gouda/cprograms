@@ -19,3 +19,4 @@ These are some simple c program.
     binary_search.c - performs binary search on a given array. [array,searchKey >> position]
     sin_ser.c - finds the value of sinx for given value of radian x. [x,n >> sinx]
     avg_ofn.c - finds the sum and average of the elements in a given array. [array,n >> sum,avg]
+    quad_eqn.c - find the roots of a quadratic equation. [co-efficients >> roots]
