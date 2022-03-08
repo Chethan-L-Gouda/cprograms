@@ -22,3 +22,4 @@ This are the simple codes i wrote.
     quad_eqn.c - find the roots of a quadratic equation. [co-efficients >> roots]
     string_fun.c - contails some functions that can perform operations on string. [length(),comp(),concat()]
     binary_to_deci.c - converts the given binary number to a decimal numbet. [binary >> decimal]
+    selection_sort.c - sort an array using selection sort algorithm.
