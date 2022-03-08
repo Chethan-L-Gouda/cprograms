@@ -23,3 +23,6 @@ These are some simple c program.
     string_fun.c - contails some functions that can perform operations on string. [length(),comp(),concat()]
     binary_to_deci.c - converts the given binary number to a decimal numbet. [binary >> decimal]
     selection_sort.c - sort an array using selection sort algorithm.
+    add_2_matrix.c - takes two matrix and adds them. [mat1,mat2 >> mat1+mat2]
+    mult_2_matrix.c - two two matrix and compute matrix product for them. [mat1,mat2 >> mat1 x mat2]
+    srch_name.c - find the position of the name in a aphabetically ordered list of names.
