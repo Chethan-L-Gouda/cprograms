@@ -7,7 +7,7 @@ int main(){
     int nPer;
     printf("Enter the number of Names : ");
     scanf("%d",&nPer);
-    printf("Enter the Names in alphabetical order : \n");
+    printf("Enter the Names in alphabetical order : \n"); 
     for(int i = 0;i<nPer;i++)
         scanf("%s",&name[i]);
     printf("Enter the Name have have to search for :");

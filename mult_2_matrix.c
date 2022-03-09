@@ -35,14 +35,14 @@ void main(){
             printf("\n");
         }
         printf("\tx\n");
-        for(int i = 0;i<m;i++){
-            for(int j =0;j<n;j++)
+        for(int i = 0;i<p;i++){
+            for(int j =0;j<q;j++)
                 printf("%d\t",mat2[i][j]);
             printf("\n");
         }
         printf("\t=\n");
         for(int i = 0;i<m;i++){
-            for(int j =0;j<n;j++)
+            for(int j =0;j<q;j++)
                 printf("%d\t",mat3[i][j]);
             printf("\n");
         }
