@@ -26,4 +26,4 @@ This are the simple codes i wrote.
     add_2_matrix.c - takes two matrix and adds them. [mat1,mat2 >> mat1+mat2]
     mult_2_matrix.c - two two matrix and compute matrix product for them. [mat1,mat2 >> mat1 x mat2]
     srch_name.c - find the position of the name in a aphabetically ordered list of names.
-    transpose_of_matrix.c - finds the transpose of a given matrix A [matrix A >> A<sup>-1</sup>]
+    transpose_of_matrix.c - finds the transpose of a given matrix A [matrix A >> A transpose]
