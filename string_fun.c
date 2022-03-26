@@ -10,51 +10,51 @@ int length(char s1[20]){
     len = i;
     return len;
 }
-void comp(char s1[20],char s2[20]){
+int comp(char s1[20],char s2[20]){
     int l1 = length(s1);
-    int l2 = length(s2);
-    bool areSame = true;
-    if(l1 == l2){
-        int l =l1;
+    int l2 = length(s2),dif=0;
+        int l = (l1>l2)?l1:l2;
         int i = 0;
         while(i<=l){
             if(s1[i] != s2[i]){
-                areSame = false;
+                dif = s1[i]-s2[i];
                 break;
             }
             i++;
-        }
     }
-    else
-        areSame = false;
-    if(areSame)
-        printf("The two strings are same.\n");
-    else
-        printf("The two strings are different\n");
+    return dif;
 }
 void concat(char s1 [20],char s2[20]){
     char s[50];
     int l1 = length(s1);
     int l2 = length(s2);
     int l=l1+l2,i=0;
-    for(i=0;i<=l1;i++)
-        if(s1[i] != '\0')
-            s[i]=s1[i];
-    for(int j=0;j<=l2;j++)
-        s[l1 + j] = s2[j];
-    printf("%s",s);
+    for(i=0;i<l;i++)
+        if(i<l1)
+            s[i] = s1[i];
+        else
+            s[i]=s2[i-l1];
+    printf("The concatenation of %s and %s gives %s\n",s1,s2,s);
 }
 void main(){
     char string1 [20];
     char string2 [20];
-    int n;
-    printf("Enter the strings : ");
-    scanf("%s%s",string1,string2);
-    int l1 = length(string1);
-    int l2 = length(string2);
-    printf("The length of string1 is %d\n",l1);
-    printf("The length of string2 is %d\n",l2);
-    comp(string1,string2);
-    concat(string1,string2);
-
+    int ch;
+    bool status = true;
+    do{
+        printf("Enter th4 string operation :\n1-length\n2-concat\n3-compare\n4-to exit");
+        scanf("%d",&ch);
+        switch (ch)
+        {
+        case 1:
+            printf("Enter the string : ");
+            scanf("%s",string1);
+            printf("The length of the string %s is %d\n");
+            break;
+        
+        default:
+            break;
+        }
+    } while (status);
+    
 }
