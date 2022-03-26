@@ -42,17 +42,32 @@ void main(){
     int ch;
     bool status = true;
     do{
-        printf("Enter th4 string operation :\n1-length\n2-concat\n3-compare\n4-to exit");
+        printf("Enter the string operation :\n1-length\n2-concat\n3-compare\n4-to exit\n__");
         scanf("%d",&ch);
         switch (ch)
         {
         case 1:
             printf("Enter the string : ");
             scanf("%s",string1);
-            printf("The length of the string %s is %d\n");
+            printf("The length of the string %s is %d\n",string1,length(string1));
             break;
-        
+        case 2:
+            printf("Enter the two strings : \n");
+            scanf("%s%s",string1,string2);
+            concat(string1,string2);
+            break;
+        case 3:
+            printf("Enter the two strings : \n");
+            scanf("%s%s",string1,string2);
+            int cp=comp(string1,string2);
+            if(cp==0) printf("Both the string are same .\n");
+            else printf("They are two different strings.\n");
+            break;
+        case 4:
+            status = false;
+            break;
         default:
+            status = false;
             break;
         }
     } while (status);
