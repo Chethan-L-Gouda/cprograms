@@ -63,7 +63,7 @@ int main(){
     clock_t start = clock();
     int elePos = binarySearch(searchKey);
     clock_t end = clock();
-    if(elePos>0)
+    if(elePos>-1)
         printf("\nThe element %d was found at Position : %d\n",searchKey,elePos+1);
     else
         printf("anThe element %d was not foumd in the array.\n",searchKey);
